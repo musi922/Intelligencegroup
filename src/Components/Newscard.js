@@ -1,7 +1,7 @@
 import React from 'react'
 import './Newscard.css'
 import cal from "../images/cal.png"
-import { Fade, Slide } from 'react-reveal';
+import { Fade, Slide } from 'react-awesome-reveal';
 
 
 const Newscard = (propse) => {
