@@ -1,13 +1,13 @@
 import React from 'react'
 import './Newscard.css'
 import cal from "../images/cal.png"
-import { Fade, Slide } from 'react-awesome-reveal';
+
 
 
 const Newscard = (propse) => {
   return (
     <div>
-      <Fade left cascade>
+      
       <div className='piic'>
       <img src={propse.imgs} className='imgs'/>
       <img src={cal} className='safu'/>
@@ -23,7 +23,7 @@ const Newscard = (propse) => {
 
       
       </div>
-      </Fade>
+      
 
     </div>
   )
